@@ -46,11 +46,6 @@ const Category = () => {
   return (
     <div className="wrapper">
     <Container>
-      <Container className="mb-2 p-4">
-        <Button color="primary" size="lg" href="/view">
-          Click to Watch All Products
-        </Button>
-      </Container>
       <Card className="shadow-sm border-1 mt-2 border-radius-2">
         <CardBody>
           <h3>
@@ -90,6 +85,12 @@ const Category = () => {
             </CardBody>
             </Card>
             </Container>
+
+            <Container className="mb-2 p-4">
+          <Button color="primary" size="lg" href="/addQuiz">
+            Click to AddQuiz
+          </Button>
+        </Container>
             </div>
   )
 }
